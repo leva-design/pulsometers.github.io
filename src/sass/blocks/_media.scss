@@ -46,6 +46,7 @@
 
 
 @media screen and (max-width: 991px) {
+
 	.header__logo img {
 		width: 88%;
 	}
@@ -109,9 +110,13 @@
 	.feed-form input {
 		height: 45px;
 	}
-	}       
+ }
+
+
+      
 
 	@media screen and (max-width: 767px) {
+
 		.header__logo img {
 			width: 88%;
 		}
@@ -183,5 +188,15 @@
 			li {
 				display: flex;
 			} 
-	 }
-	  }
+	 	}
+		 
+		 .title {
+			 font-size: 20px;
+		 }
+
+		 .catalog-item__descr {
+			font-size: 12px;
+		} 
+	}
+	  
+ 
